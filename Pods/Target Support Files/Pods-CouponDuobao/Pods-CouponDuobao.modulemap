@@ -1,0 +1,6 @@
+framework module Pods_CouponDuobao {
+  umbrella header "Pods-CouponDuobao-umbrella.h"
+
+  export *
+  module * { export * }
+}

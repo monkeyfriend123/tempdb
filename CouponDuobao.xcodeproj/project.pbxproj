@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		509EDC20B67A92C0CEEFE628 /* Pods_CouponDuobao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC2DDFF976B6D38B7945A89 /* Pods_CouponDuobao.framework */; };
+		65AADCE792FE9165848E3D70 /* Pods_CouponDuobaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6820DBB4C50757CBB74A58AE /* Pods_CouponDuobaoUITests.framework */; };
+		B80B29CFD39B3AABF2561E26 /* Pods_CouponDuobaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0393EC4A3CCDBE515566E9B4 /* Pods_CouponDuobaoTests.framework */; };
+		CE061B7C1EE16CB600F28390 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B7B1EE16CB600F28390 /* Log.swift */; };
+		CE061B801EE16F2500F28390 /* HTTPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B7F1EE16F2500F28390 /* HTTPConstants.swift */; };
+		CE061B821EE172D800F28390 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B811EE172D800F28390 /* Network.swift */; };
+		CE061B841EE1744700F28390 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B831EE1744700F28390 /* Result.swift */; };
+		CE061B881EE1752800F28390 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B871EE1752800F28390 /* User.swift */; };
+		CE061B8A1EE176E900F28390 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B891EE176E900F28390 /* BaseModel.swift */; };
 		CE6898601EE15E210067C76C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68985F1EE15E210067C76C /* AppDelegate.swift */; };
 		CE6898621EE15E210067C76C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6898611EE15E210067C76C /* ViewController.swift */; };
 		CE6898651EE15E210067C76C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898631EE15E210067C76C /* Main.storyboard */; };
@@ -14,6 +23,17 @@
 		CE68986A1EE15E210067C76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898681EE15E210067C76C /* LaunchScreen.storyboard */; };
 		CE6898751EE15E210067C76C /* CouponDuobaoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6898741EE15E210067C76C /* CouponDuobaoTests.swift */; };
 		CE6898801EE15E210067C76C /* CouponDuobaoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68987F1EE15E210067C76C /* CouponDuobaoUITests.swift */; };
+		CE6898931EE161580067C76C /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6898921EE161580067C76C /* BaseViewController.swift */; };
+		CE6898951EE161860067C76C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6898941EE161860067C76C /* HomeViewController.swift */; };
+		CE6898981EE162DE0067C76C /* LatestAnnounceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6898971EE162DE0067C76C /* LatestAnnounceViewController.swift */; };
+		CE68989B1EE1635C0067C76C /* DiscoveryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68989A1EE1635C0067C76C /* DiscoveryViewController.swift */; };
+		CE68989E1EE1639D0067C76C /* CartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68989D1EE1639D0067C76C /* CartViewController.swift */; };
+		CE6898A11EE163E40067C76C /* MineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6898A01EE163E40067C76C /* MineViewController.swift */; };
+		CE6898A31EE164640067C76C /* Mine.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898A21EE164640067C76C /* Mine.storyboard */; };
+		CE6898A51EE1654E0067C76C /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898A41EE1654E0067C76C /* Home.storyboard */; };
+		CE6898A71EE166660067C76C /* Announce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898A61EE166660067C76C /* Announce.storyboard */; };
+		CE6898A91EE1667B0067C76C /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898A81EE1667B0067C76C /* Discovery.storyboard */; };
+		CE6898AB1EE166960067C76C /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898AA1EE166960067C76C /* Cart.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +54,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0393EC4A3CCDBE515566E9B4 /* Pods_CouponDuobaoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CouponDuobaoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11DD481A416A2D2E4B352DE5 /* Pods-CouponDuobaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponDuobaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CouponDuobaoUITests/Pods-CouponDuobaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1CC2DDFF976B6D38B7945A89 /* Pods_CouponDuobao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CouponDuobao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35A0068A593CE77D7B6B2D29 /* Pods-CouponDuobaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponDuobaoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CouponDuobaoTests/Pods-CouponDuobaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		678E4BB6F55E00F7946D5D38 /* Pods-CouponDuobaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponDuobaoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CouponDuobaoTests/Pods-CouponDuobaoTests.release.xcconfig"; sourceTree = "<group>"; };
+		6820DBB4C50757CBB74A58AE /* Pods_CouponDuobaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CouponDuobaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85D7AC54353F0AD16B5B54C3 /* Pods-CouponDuobao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponDuobao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CouponDuobao/Pods-CouponDuobao.debug.xcconfig"; sourceTree = "<group>"; };
+		93FEDA36DB41BA4F4E46FEE9 /* Pods-CouponDuobaoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponDuobaoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CouponDuobaoUITests/Pods-CouponDuobaoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE061B7B1EE16CB600F28390 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		CE061B7F1EE16F2500F28390 /* HTTPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPConstants.swift; sourceTree = "<group>"; };
+		CE061B811EE172D800F28390 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		CE061B831EE1744700F28390 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		CE061B871EE1752800F28390 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		CE061B891EE176E900F28390 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
 		CE68985C1EE15E210067C76C /* CouponDuobao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouponDuobao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE68985F1EE15E210067C76C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE6898611EE15E210067C76C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +81,18 @@
 		CE68987B1EE15E210067C76C /* CouponDuobaoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CouponDuobaoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE68987F1EE15E210067C76C /* CouponDuobaoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CouponDuobaoUITests.swift; sourceTree = "<group>"; };
 		CE6898811EE15E210067C76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6898921EE161580067C76C /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		CE6898941EE161860067C76C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE6898971EE162DE0067C76C /* LatestAnnounceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestAnnounceViewController.swift; sourceTree = "<group>"; };
+		CE68989A1EE1635C0067C76C /* DiscoveryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoveryViewController.swift; sourceTree = "<group>"; };
+		CE68989D1EE1639D0067C76C /* CartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CartViewController.swift; sourceTree = "<group>"; };
+		CE6898A01EE163E40067C76C /* MineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MineViewController.swift; sourceTree = "<group>"; };
+		CE6898A21EE164640067C76C /* Mine.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Mine.storyboard; sourceTree = "<group>"; };
+		CE6898A41EE1654E0067C76C /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		CE6898A61EE166660067C76C /* Announce.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Announce.storyboard; sourceTree = "<group>"; };
+		CE6898A81EE1667B0067C76C /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
+		CE6898AA1EE166960067C76C /* Cart.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
+		D47B9542527F623C4E2F6976 /* Pods-CouponDuobao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponDuobao.release.xcconfig"; path = "Pods/Target Support Files/Pods-CouponDuobao/Pods-CouponDuobao.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				509EDC20B67A92C0CEEFE628 /* Pods_CouponDuobao.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B80B29CFD39B3AABF2561E26 /* Pods_CouponDuobaoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +116,75 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65AADCE792FE9165848E3D70 /* Pods_CouponDuobaoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5C247271967EFB2ABCF7B280 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1CC2DDFF976B6D38B7945A89 /* Pods_CouponDuobao.framework */,
+				0393EC4A3CCDBE515566E9B4 /* Pods_CouponDuobaoTests.framework */,
+				6820DBB4C50757CBB74A58AE /* Pods_CouponDuobaoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE061B771EE16B8300F28390 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CE061B7A1EE16C9A00F28390 /* Log */,
+				CE061B781EE16BA200F28390 /* Network */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CE061B781EE16BA200F28390 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				CE061B7D1EE16EF600F28390 /* HTTP */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		CE061B7A1EE16C9A00F28390 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				CE061B7B1EE16CB600F28390 /* Log.swift */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
+		CE061B7D1EE16EF600F28390 /* HTTP */ = {
+			isa = PBXGroup;
+			children = (
+				CE061B7F1EE16F2500F28390 /* HTTPConstants.swift */,
+				CE061B811EE172D800F28390 /* Network.swift */,
+				CE061B831EE1744700F28390 /* Result.swift */,
+			);
+			path = HTTP;
+			sourceTree = "<group>";
+		};
+		CE061B851EE174F400F28390 /* Business */ = {
+			isa = PBXGroup;
+			children = (
+				CE061B861EE1750500F28390 /* Model */,
+			);
+			path = Business;
+			sourceTree = "<group>";
+		};
+		CE061B861EE1750500F28390 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CE061B891EE176E900F28390 /* BaseModel.swift */,
+				CE061B871EE1752800F28390 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		CE6898531EE15E210067C76C = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +192,8 @@
 				CE6898731EE15E210067C76C /* CouponDuobaoTests */,
 				CE68987E1EE15E210067C76C /* CouponDuobaoUITests */,
 				CE68985D1EE15E210067C76C /* Products */,
+				D5CFA4FF4A1F85C90852BAA5 /* Pods */,
+				5C247271967EFB2ABCF7B280 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +210,9 @@
 		CE68985E1EE15E210067C76C /* CouponDuobao */ = {
 			isa = PBXGroup;
 			children = (
+				CE061B851EE174F400F28390 /* Business */,
+				CE061B771EE16B8300F28390 /* Base */,
+				CE68988D1EE160FF0067C76C /* Sections */,
 				CE68985F1EE15E210067C76C /* AppDelegate.swift */,
 				CE6898611EE15E210067C76C /* ViewController.swift */,
 				CE6898631EE15E210067C76C /* Main.storyboard */,
@@ -125,6 +241,85 @@
 			path = CouponDuobaoUITests;
 			sourceTree = "<group>";
 		};
+		CE68988D1EE160FF0067C76C /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				CE68989F1EE163C80067C76C /* Mine */,
+				CE68989C1EE1638A0067C76C /* Cart */,
+				CE6898991EE163340067C76C /* Discovery */,
+				CE6898961EE1629D0067C76C /* Announce */,
+				CE6898911EE161430067C76C /* Home */,
+				CE6898901EE161300067C76C /* Base */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		CE6898901EE161300067C76C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CE6898921EE161580067C76C /* BaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CE6898911EE161430067C76C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				CE6898941EE161860067C76C /* HomeViewController.swift */,
+				CE6898A41EE1654E0067C76C /* Home.storyboard */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		CE6898961EE1629D0067C76C /* Announce */ = {
+			isa = PBXGroup;
+			children = (
+				CE6898971EE162DE0067C76C /* LatestAnnounceViewController.swift */,
+				CE6898A61EE166660067C76C /* Announce.storyboard */,
+			);
+			path = Announce;
+			sourceTree = "<group>";
+		};
+		CE6898991EE163340067C76C /* Discovery */ = {
+			isa = PBXGroup;
+			children = (
+				CE68989A1EE1635C0067C76C /* DiscoveryViewController.swift */,
+				CE6898A81EE1667B0067C76C /* Discovery.storyboard */,
+			);
+			path = Discovery;
+			sourceTree = "<group>";
+		};
+		CE68989C1EE1638A0067C76C /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				CE68989D1EE1639D0067C76C /* CartViewController.swift */,
+				CE6898AA1EE166960067C76C /* Cart.storyboard */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		CE68989F1EE163C80067C76C /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				CE6898A01EE163E40067C76C /* MineViewController.swift */,
+				CE6898A21EE164640067C76C /* Mine.storyboard */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		D5CFA4FF4A1F85C90852BAA5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85D7AC54353F0AD16B5B54C3 /* Pods-CouponDuobao.debug.xcconfig */,
+				D47B9542527F623C4E2F6976 /* Pods-CouponDuobao.release.xcconfig */,
+				35A0068A593CE77D7B6B2D29 /* Pods-CouponDuobaoTests.debug.xcconfig */,
+				678E4BB6F55E00F7946D5D38 /* Pods-CouponDuobaoTests.release.xcconfig */,
+				11DD481A416A2D2E4B352DE5 /* Pods-CouponDuobaoUITests.debug.xcconfig */,
+				93FEDA36DB41BA4F4E46FEE9 /* Pods-CouponDuobaoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +327,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE6898841EE15E210067C76C /* Build configuration list for PBXNativeTarget "CouponDuobao" */;
 			buildPhases = (
+				8D5D8FA6F2C9A1904D98EC8D /* [CP] Check Pods Manifest.lock */,
 				CE6898581EE15E210067C76C /* Sources */,
 				CE6898591EE15E210067C76C /* Frameworks */,
 				CE68985A1EE15E210067C76C /* Resources */,
+				B608062C24742C0C88456EED /* [CP] Embed Pods Frameworks */,
+				CEFDCDA1A72C52AEBF3C095E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +347,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE6898871EE15E210067C76C /* Build configuration list for PBXNativeTarget "CouponDuobaoTests" */;
 			buildPhases = (
+				0D2A3DB512702EBE5D9D2894 /* [CP] Check Pods Manifest.lock */,
 				CE68986C1EE15E210067C76C /* Sources */,
 				CE68986D1EE15E210067C76C /* Frameworks */,
 				CE68986E1EE15E210067C76C /* Resources */,
+				315E6BD791B2191DB3840E9A /* [CP] Embed Pods Frameworks */,
+				43645D6BE7FB70ACCE8B2B7D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +368,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE68988A1EE15E210067C76C /* Build configuration list for PBXNativeTarget "CouponDuobaoUITests" */;
 			buildPhases = (
+				D5DD5B85AE3411953C0D6AE7 /* [CP] Check Pods Manifest.lock */,
 				CE6898771EE15E210067C76C /* Sources */,
 				CE6898781EE15E210067C76C /* Frameworks */,
 				CE6898791EE15E210067C76C /* Resources */,
+				188D5C419A8565AAFEC023A0 /* [CP] Embed Pods Frameworks */,
+				27AE029E1FEF74C12946686A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,9 +436,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6898AB1EE166960067C76C /* Cart.storyboard in Resources */,
+				CE6898A91EE1667B0067C76C /* Discovery.storyboard in Resources */,
 				CE68986A1EE15E210067C76C /* LaunchScreen.storyboard in Resources */,
+				CE6898A71EE166660067C76C /* Announce.storyboard in Resources */,
+				CE6898A51EE1654E0067C76C /* Home.storyboard in Resources */,
 				CE6898671EE15E210067C76C /* Assets.xcassets in Resources */,
 				CE6898651EE15E210067C76C /* Main.storyboard in Resources */,
+				CE6898A31EE164640067C76C /* Mine.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +463,163 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0D2A3DB512702EBE5D9D2894 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		188D5C419A8565AAFEC023A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CouponDuobaoUITests/Pods-CouponDuobaoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		27AE029E1FEF74C12946686A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CouponDuobaoUITests/Pods-CouponDuobaoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		315E6BD791B2191DB3840E9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CouponDuobaoTests/Pods-CouponDuobaoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43645D6BE7FB70ACCE8B2B7D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CouponDuobaoTests/Pods-CouponDuobaoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D5D8FA6F2C9A1904D98EC8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B608062C24742C0C88456EED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CouponDuobao/Pods-CouponDuobao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEFDCDA1A72C52AEBF3C095E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CouponDuobao/Pods-CouponDuobao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5DD5B85AE3411953C0D6AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE6898581EE15E210067C76C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE061B881EE1752800F28390 /* User.swift in Sources */,
 				CE6898621EE15E210067C76C /* ViewController.swift in Sources */,
+				CE061B801EE16F2500F28390 /* HTTPConstants.swift in Sources */,
+				CE68989B1EE1635C0067C76C /* DiscoveryViewController.swift in Sources */,
+				CE061B7C1EE16CB600F28390 /* Log.swift in Sources */,
+				CE68989E1EE1639D0067C76C /* CartViewController.swift in Sources */,
+				CE061B821EE172D800F28390 /* Network.swift in Sources */,
+				CE061B841EE1744700F28390 /* Result.swift in Sources */,
+				CE6898A11EE163E40067C76C /* MineViewController.swift in Sources */,
+				CE6898981EE162DE0067C76C /* LatestAnnounceViewController.swift in Sources */,
 				CE6898601EE15E210067C76C /* AppDelegate.swift in Sources */,
+				CE6898931EE161580067C76C /* BaseViewController.swift in Sources */,
+				CE061B8A1EE176E900F28390 /* BaseModel.swift in Sources */,
+				CE6898951EE161860067C76C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +771,7 @@
 		};
 		CE6898851EE15E210067C76C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85D7AC54353F0AD16B5B54C3 /* Pods-CouponDuobao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CouponDuobao/Info.plist;
@@ -424,6 +784,7 @@
 		};
 		CE6898861EE15E210067C76C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D47B9542527F623C4E2F6976 /* Pods-CouponDuobao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CouponDuobao/Info.plist;
@@ -436,6 +797,7 @@
 		};
 		CE6898881EE15E210067C76C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35A0068A593CE77D7B6B2D29 /* Pods-CouponDuobaoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +812,7 @@
 		};
 		CE6898891EE15E210067C76C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 678E4BB6F55E00F7946D5D38 /* Pods-CouponDuobaoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +827,7 @@
 		};
 		CE68988B1EE15E210067C76C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11DD481A416A2D2E4B352DE5 /* Pods-CouponDuobaoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CouponDuobaoUITests/Info.plist;
@@ -477,6 +841,7 @@
 		};
 		CE68988C1EE15E210067C76C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93FEDA36DB41BA4F4E46FEE9 /* Pods-CouponDuobaoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CouponDuobaoUITests/Info.plist;
@@ -507,6 +872,7 @@
 				CE6898861EE15E210067C76C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE6898871EE15E210067C76C /* Build configuration list for PBXNativeTarget "CouponDuobaoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +881,7 @@
 				CE6898891EE15E210067C76C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CE68988A1EE15E210067C76C /* Build configuration list for PBXNativeTarget "CouponDuobaoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +890,7 @@
 				CE68988C1EE15E210067C76C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

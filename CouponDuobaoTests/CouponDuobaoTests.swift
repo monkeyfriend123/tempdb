@@ -7,7 +7,13 @@
 //
 
 import XCTest
+import ObjectMapper
+
 @testable import CouponDuobao
+
+struct Context: MapContext {
+    var importantMappingInfo = "Info that I need during mapping"
+}
 
 class CouponDuobaoTests: XCTestCase {
     
@@ -31,6 +37,33 @@ class CouponDuobaoTests: XCTestCase {
         self.measure {
             // Put the code you want to measure the time of here.
         }
+    }
+    
+    
+    func testInvoke<T:Mappable>(JSON:[String:Any])->T?{
+        let context = Context()
+        let user = Mapper<T>(context: context).map(JSON:JSON)
+        
+        return user
+    }
+    
+    func testObjectmapper(){
+        let dict = ["name":"zhangsan"]
+        let user:User? = testInvoke(JSON: dict)
+        Log.log(user?.name ?? "name")
+    }
+    
+    func testInvoke2<T:Mappable>(JSON:[String:Any],completionHandler: (T?) -> Void){
+        let context = Context()
+        let user = Mapper<T>(context: context).map(JSON:JSON)
+        completionHandler(user)
+    }
+    
+    func testObjectmapper2(){
+        let dict = ["name":"zhangsanlisi"]
+        testInvoke2(JSON: dict,completionHandler:{
+            (user: User?) in print(user?.name ?? "11")
+        })
     }
     
 }

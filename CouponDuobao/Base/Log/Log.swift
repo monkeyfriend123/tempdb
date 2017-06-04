@@ -15,7 +15,16 @@ struct Log{
      */
     static func log(_ msg: Any...){
         #if DEBUG
-            print(msg)
+            print("日志--------> ",msg)
+        #endif
+    }
+    
+    /**
+     * 控制台输出消息
+     */
+    static func error(_ msg: Any...){
+        #if DEBUG
+            print("错误--------> ",msg)
         #endif
     }
 }

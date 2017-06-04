@@ -7,17 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B082A161EE38ADC009BF67D /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B082A151EE38ADC009BF67D /* Request.swift */; };
+		4B082A181EE38C38009BF67D /* BaseModelMappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B082A171EE38C38009BF67D /* BaseModelMappable.swift */; };
 		509EDC20B67A92C0CEEFE628 /* Pods_CouponDuobao.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC2DDFF976B6D38B7945A89 /* Pods_CouponDuobao.framework */; };
 		65AADCE792FE9165848E3D70 /* Pods_CouponDuobaoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6820DBB4C50757CBB74A58AE /* Pods_CouponDuobaoUITests.framework */; };
 		B80B29CFD39B3AABF2561E26 /* Pods_CouponDuobaoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0393EC4A3CCDBE515566E9B4 /* Pods_CouponDuobaoTests.framework */; };
 		CE061B7C1EE16CB600F28390 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B7B1EE16CB600F28390 /* Log.swift */; };
 		CE061B801EE16F2500F28390 /* HTTPConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B7F1EE16F2500F28390 /* HTTPConstants.swift */; };
 		CE061B821EE172D800F28390 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B811EE172D800F28390 /* Network.swift */; };
-		CE061B841EE1744700F28390 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B831EE1744700F28390 /* Result.swift */; };
-		CE061B881EE1752800F28390 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B871EE1752800F28390 /* User.swift */; };
-		CE061B8A1EE176E900F28390 /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B891EE176E900F28390 /* BaseModel.swift */; };
+		CE061B841EE1744700F28390 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE061B831EE1744700F28390 /* Response.swift */; };
 		CE6898601EE15E210067C76C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE68985F1EE15E210067C76C /* AppDelegate.swift */; };
-		CE6898621EE15E210067C76C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6898611EE15E210067C76C /* ViewController.swift */; };
 		CE6898651EE15E210067C76C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898631EE15E210067C76C /* Main.storyboard */; };
 		CE6898671EE15E210067C76C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6898661EE15E210067C76C /* Assets.xcassets */; };
 		CE68986A1EE15E210067C76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898681EE15E210067C76C /* LaunchScreen.storyboard */; };
@@ -58,6 +57,8 @@
 		11DD481A416A2D2E4B352DE5 /* Pods-CouponDuobaoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponDuobaoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CouponDuobaoUITests/Pods-CouponDuobaoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		1CC2DDFF976B6D38B7945A89 /* Pods_CouponDuobao.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CouponDuobao.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A0068A593CE77D7B6B2D29 /* Pods-CouponDuobaoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponDuobaoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CouponDuobaoTests/Pods-CouponDuobaoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4B082A151EE38ADC009BF67D /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		4B082A171EE38C38009BF67D /* BaseModelMappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModelMappable.swift; sourceTree = "<group>"; };
 		678E4BB6F55E00F7946D5D38 /* Pods-CouponDuobaoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponDuobaoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CouponDuobaoTests/Pods-CouponDuobaoTests.release.xcconfig"; sourceTree = "<group>"; };
 		6820DBB4C50757CBB74A58AE /* Pods_CouponDuobaoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CouponDuobaoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85D7AC54353F0AD16B5B54C3 /* Pods-CouponDuobao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponDuobao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CouponDuobao/Pods-CouponDuobao.debug.xcconfig"; sourceTree = "<group>"; };
@@ -65,12 +66,9 @@
 		CE061B7B1EE16CB600F28390 /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		CE061B7F1EE16F2500F28390 /* HTTPConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPConstants.swift; sourceTree = "<group>"; };
 		CE061B811EE172D800F28390 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
-		CE061B831EE1744700F28390 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
-		CE061B871EE1752800F28390 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
-		CE061B891EE176E900F28390 /* BaseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		CE061B831EE1744700F28390 /* Response.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 		CE68985C1EE15E210067C76C /* CouponDuobao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CouponDuobao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE68985F1EE15E210067C76C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CE6898611EE15E210067C76C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		CE6898641EE15E210067C76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE6898661EE15E210067C76C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE6898691EE15E210067C76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -162,8 +160,10 @@
 			isa = PBXGroup;
 			children = (
 				CE061B7F1EE16F2500F28390 /* HTTPConstants.swift */,
+				4B082A171EE38C38009BF67D /* BaseModelMappable.swift */,
 				CE061B811EE172D800F28390 /* Network.swift */,
-				CE061B831EE1744700F28390 /* Result.swift */,
+				4B082A151EE38ADC009BF67D /* Request.swift */,
+				CE061B831EE1744700F28390 /* Response.swift */,
 			);
 			path = HTTP;
 			sourceTree = "<group>";
@@ -179,8 +179,6 @@
 		CE061B861EE1750500F28390 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CE061B891EE176E900F28390 /* BaseModel.swift */,
-				CE061B871EE1752800F28390 /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -214,7 +212,6 @@
 				CE061B771EE16B8300F28390 /* Base */,
 				CE68988D1EE160FF0067C76C /* Sections */,
 				CE68985F1EE15E210067C76C /* AppDelegate.swift */,
-				CE6898611EE15E210067C76C /* ViewController.swift */,
 				CE6898631EE15E210067C76C /* Main.storyboard */,
 				CE6898661EE15E210067C76C /* Assets.xcassets */,
 				CE6898681EE15E210067C76C /* LaunchScreen.storyboard */,
@@ -606,19 +603,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE061B881EE1752800F28390 /* User.swift in Sources */,
-				CE6898621EE15E210067C76C /* ViewController.swift in Sources */,
+				4B082A181EE38C38009BF67D /* BaseModelMappable.swift in Sources */,
 				CE061B801EE16F2500F28390 /* HTTPConstants.swift in Sources */,
 				CE68989B1EE1635C0067C76C /* DiscoveryViewController.swift in Sources */,
 				CE061B7C1EE16CB600F28390 /* Log.swift in Sources */,
 				CE68989E1EE1639D0067C76C /* CartViewController.swift in Sources */,
 				CE061B821EE172D800F28390 /* Network.swift in Sources */,
-				CE061B841EE1744700F28390 /* Result.swift in Sources */,
+				CE061B841EE1744700F28390 /* Response.swift in Sources */,
 				CE6898A11EE163E40067C76C /* MineViewController.swift in Sources */,
 				CE6898981EE162DE0067C76C /* LatestAnnounceViewController.swift in Sources */,
 				CE6898601EE15E210067C76C /* AppDelegate.swift in Sources */,
 				CE6898931EE161580067C76C /* BaseViewController.swift in Sources */,
-				CE061B8A1EE176E900F28390 /* BaseModel.swift in Sources */,
+				4B082A161EE38ADC009BF67D /* Request.swift in Sources */,
 				CE6898951EE161860067C76C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

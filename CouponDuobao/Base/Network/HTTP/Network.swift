@@ -9,9 +9,9 @@
 import Foundation
 import Alamofire
 
-typealias JSONDictionary = [String:String]
-typealias JSONObject = [String:Any]
-typealias RequestMethod = HTTPMethod
+public typealias JSONDictionary = [String:String]
+public typealias JSONObject = [String:Any]
+public typealias RequestMethod = HTTPMethod
 
 func decodeJSON(_ data: NSData) -> JSONObject{
     if let json = try? JSONSerialization.jsonObject(with: data as Data, options: []),

@@ -13,6 +13,6 @@ import ObjectMapper
  * 自定义一个协议提供 init?(map: Map)
  * 所有modal 必须是类,值类型赋值会改变，容易出错
  */
-protocol BaseModelMappable: class, Mappable {
+public protocol BaseModelMappable: class, Mappable {
     
 }

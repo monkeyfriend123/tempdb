@@ -12,7 +12,7 @@ import ObjectMapper
 /**
  * 接口调用参数
  */
-public struct Resource<A>:CustomStringConvertible {
+public struct Resource<A: BaseModelMappable>:CustomStringConvertible {
     let path: String
     let method: RequestMethod
     let requestBody: JSONObject?
@@ -22,6 +22,16 @@ public struct Resource<A>:CustomStringConvertible {
     public var description: String {
     
         return "Resource(Method: \(method), path: \(path), headers: \(String(describing: headers)), requestBody: \(String(describing: requestBody)))"
+    }
+    
+    init(path: String, method: RequestMethod = .post,
+         requestBody: JSONObject?,headers: JSONDictionary? = nil,
+         parse: @escaping ((JSONObject) -> A?) = Parse.parseToModel){
+        self.path = path
+        self.method = method
+        self.requestBody = requestBody
+        self.headers = headers
+        self.parse = parse
     }
 }
 

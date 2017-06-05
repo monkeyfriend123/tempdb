@@ -56,4 +56,11 @@ class CouponDuobaoTests: XCTestCase {
         let user: User? = Parse.parseToModel(json: dict)
         Log.log(user?.name ?? "")
     }
+    
+    func testResource(){
+        let resource = Resource<User>(path: "", requestBody: nil, headers: nil)
+        let dict = ["name":"zhangsan"]
+        let user = resource.parse(dict)
+        Log.log(user?.name ?? "")
+    }
 }

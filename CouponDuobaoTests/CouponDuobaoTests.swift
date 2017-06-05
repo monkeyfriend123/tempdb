@@ -63,4 +63,7 @@ class CouponDuobaoTests: XCTestCase {
         let user = resource.parse(dict)
         Log.log(user?.name ?? "")
     }
+    
+    
+    
 }

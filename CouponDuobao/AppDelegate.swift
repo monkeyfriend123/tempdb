@@ -58,11 +58,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
+//        
+//        let resource = Resource<JSONObject>(path: "http://api.vd.cn/mengdianApp/getPageInfo",requestBody: ["BaseAppVersion":"4.1.0","SystemVersion":"9.3","channel":"BuyerHome","spreadChannel":"app store","BaseAppType":"ios","_sign_":"BD45BF9024E3F6E1AEFC18A5324CACBF"])
+//        let _ = NetWork.default.apiRequest(resource: resource) { (response) in
+//            Log.log("\(String(describing: response?.value))")
+//        }
         
-        let resource = Resource<JSONObject>(path: "http://api.vd.cn/mengdianApp/getPageInfo",requestBody: ["BaseAppVersion":"4.1.0","SystemVersion":"9.3","channel":"BuyerHome","spreadChannel":"app store","BaseAppType":"ios","_sign_":"BD45BF9024E3F6E1AEFC18A5324CACBF"])
-        let _ = NetWork.default.apiRequest(resource: resource) { (response) in
-            Log.log("\(String(describing: response?.value))")
+        
+    
+        
+        func testRoute(){
+            Router.registerRoute(route: "a/b"){
+                return MineViewController.self
+            }
+            
+            Router.openRoute(route: "a/b")
         }
+        
+        testRoute()
+        
         return true
     }
 

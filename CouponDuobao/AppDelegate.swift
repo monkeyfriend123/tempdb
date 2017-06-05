@@ -7,6 +7,47 @@
 //
 
 import UIKit
+import ObjectMapper
+
+
+class MaterialInfo: BaseModelMappable{
+//    "materialType": 0,
+//    "title": "品牌馆",
+//    "subtitle": "品牌馆",
+//    "pictureUrl": "http:\
+    
+    var materialType: Int?
+    var title: String?
+    var subtitle: String?
+    var pictureUrl: String?
+    
+    required init?(map: Map) {
+        
+    }
+    
+    
+    func mapping(map: Map) {
+        materialType <- map["materialType"]
+        title <- map["title"]
+        subtitle <- map["subtitle"]
+        pictureUrl <- map["pictureUrl"]
+    }
+}
+
+class PageInfo: BaseModelMappable{
+    var pinpaiguan: MaterialInfo?
+    var yiyuangou: MaterialInfo?
+    
+    required init?(map: Map) {
+        
+    }
+    
+    
+    func mapping(map: Map) {
+        pinpaiguan <- map["pinpaiguan"]
+        yiyuangou <- map["yiyuangou"]
+    }
+}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +57,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-                
+        
+        
+        let resource = Resource<JSONObject>(path: "http://api.vd.cn/mengdianApp/getPageInfo",requestBody: ["BaseAppVersion":"4.1.0","SystemVersion":"9.3","channel":"BuyerHome","spreadChannel":"app store","BaseAppType":"ios","_sign_":"BD45BF9024E3F6E1AEFC18A5324CACBF"])
+        let _ = NetWork.default.apiRequest(resource: resource) { (response) in
+            Log.log("\(String(describing: response?.value))")
+        }
         return true
     }
 

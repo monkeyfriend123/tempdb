@@ -12,5 +12,7 @@
 #define CouponDuobao_Objc_h
 
 #import "Test.h"
+#import <YYText/YYText.h>
+
 
 #endif /* CouponDuobao_Objc_h */

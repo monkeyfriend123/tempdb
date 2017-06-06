@@ -9,7 +9,6 @@
 import UIKit
 import ObjectMapper
 
-
 class MaterialInfo: BaseModelMappable{
 //    "materialType": 0,
 //    "title": "品牌馆",
@@ -92,6 +91,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         test2.show()
         
         ChildTest.staticTest()
+        
+        
         
         return true
     }

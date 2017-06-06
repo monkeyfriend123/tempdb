@@ -1,15 +1,18 @@
 PODS:
   - Alamofire (4.4.0)
   - ObjectMapper (2.2.6)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - Alamofire (~> 4.4.0)
   - ObjectMapper (~> 2.2.6)
+  - YYText
 
 SPEC CHECKSUMS:
   Alamofire: dc44b1600b800eb63da6a19039a0083d62a6a62d
   ObjectMapper: 042708195cc46c20871cbcbec0453826398273fd
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 31b2db9b80cf0f9810cb0c571552809f8d1345b3
+PODFILE CHECKSUM: 9f841f09e8f949e923e22cb02a14e8d0bace7b09
 
 COCOAPODS: 1.1.1

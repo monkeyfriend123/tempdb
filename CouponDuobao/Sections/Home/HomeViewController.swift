@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import YYText
 
 class HomeViewController: BaseViewController {
 
@@ -22,7 +23,10 @@ class HomeViewController: BaseViewController {
     }
     
     override func initUI() {
-        
+        let label = YYLabel()
+        label.text = "Hello World"
+        label.frame = CGRect(x: 10, y: 64, width: 100, height: 100)
+        view.addSubview(label)
     }
     
 }

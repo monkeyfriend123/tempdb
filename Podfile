@@ -8,6 +8,7 @@ target 'CouponDuobao' do
   # Pods for CouponDuobao
   pod 'Alamofire', '~> 4.4.0' 
   pod 'ObjectMapper', '~> 2.2.6'
+  pod 'YYText'
  
 
   target 'CouponDuobaoTests' do

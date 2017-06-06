@@ -34,6 +34,8 @@
 		CE6898A71EE166660067C76C /* Announce.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898A61EE166660067C76C /* Announce.storyboard */; };
 		CE6898A91EE1667B0067C76C /* Discovery.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898A81EE1667B0067C76C /* Discovery.storyboard */; };
 		CE6898AB1EE166960067C76C /* Cart.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6898AA1EE166960067C76C /* Cart.storyboard */; };
+		CED89B161EE641900068526D /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = CED89B151EE641900068526D /* Test.m */; };
+		CED89B191EE642EE0068526D /* ChildTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED89B181EE642EE0068526D /* ChildTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +94,10 @@
 		CE6898A61EE166660067C76C /* Announce.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Announce.storyboard; sourceTree = "<group>"; };
 		CE6898A81EE1667B0067C76C /* Discovery.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discovery.storyboard; sourceTree = "<group>"; };
 		CE6898AA1EE166960067C76C /* Cart.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Cart.storyboard; sourceTree = "<group>"; };
+		CED89B121EE641130068526D /* CouponDuobao-Objc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CouponDuobao-Objc.h"; sourceTree = "<group>"; };
+		CED89B141EE641900068526D /* Test.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		CED89B151EE641900068526D /* Test.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		CED89B181EE642EE0068526D /* ChildTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChildTest.swift; sourceTree = "<group>"; };
 		D47B9542527F623C4E2F6976 /* Pods-CouponDuobao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CouponDuobao.release.xcconfig"; path = "Pods/Target Support Files/Pods-CouponDuobao/Pods-CouponDuobao.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -219,6 +225,7 @@
 		CE68985E1EE15E210067C76C /* CouponDuobao */ = {
 			isa = PBXGroup;
 			children = (
+				CED89B101EE6405D0068526D /* Mix */,
 				CE061B851EE174F400F28390 /* Business */,
 				CE061B771EE16B8300F28390 /* Base */,
 				CE68988D1EE160FF0067C76C /* Sections */,
@@ -313,6 +320,33 @@
 				CE6898A21EE164640067C76C /* Mine.storyboard */,
 			);
 			path = Mine;
+			sourceTree = "<group>";
+		};
+		CED89B101EE6405D0068526D /* Mix */ = {
+			isa = PBXGroup;
+			children = (
+				CED89B171EE642CA0068526D /* Swift */,
+				CED89B131EE641750068526D /* Objc */,
+				CED89B121EE641130068526D /* CouponDuobao-Objc.h */,
+			);
+			path = Mix;
+			sourceTree = "<group>";
+		};
+		CED89B131EE641750068526D /* Objc */ = {
+			isa = PBXGroup;
+			children = (
+				CED89B141EE641900068526D /* Test.h */,
+				CED89B151EE641900068526D /* Test.m */,
+			);
+			path = Objc;
+			sourceTree = "<group>";
+		};
+		CED89B171EE642CA0068526D /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				CED89B181EE642EE0068526D /* ChildTest.swift */,
+			);
+			path = Swift;
 			sourceTree = "<group>";
 		};
 		D5CFA4FF4A1F85C90852BAA5 /* Pods */ = {
@@ -614,6 +648,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED89B161EE641900068526D /* Test.m in Sources */,
 				4B082A181EE38C38009BF67D /* BaseModelMappable.swift in Sources */,
 				CE061B801EE16F2500F28390 /* HTTPConstants.swift in Sources */,
 				CE68989B1EE1635C0067C76C /* DiscoveryViewController.swift in Sources */,
@@ -627,6 +662,7 @@
 				CE1563961EE54CD0009F0ADF /* Router.swift in Sources */,
 				CE6898931EE161580067C76C /* BaseViewController.swift in Sources */,
 				4B082A161EE38ADC009BF67D /* Request.swift in Sources */,
+				CED89B191EE642EE0068526D /* ChildTest.swift in Sources */,
 				CE6898951EE161860067C76C /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -786,6 +822,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cdb.CouponDuobao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CouponDuobao/Mix/$(SWIFT_MODULE_NAME)-Objc.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -799,6 +836,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cdb.CouponDuobao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "CouponDuobao/Mix/$(SWIFT_MODULE_NAME)-Objc.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

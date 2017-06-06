@@ -77,6 +77,22 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         testRoute()
         
+        
+        func testOC(){
+            let test = Test(string: "hello world")
+            test?.show()
+            
+            Test.staticTest()
+        }
+        
+        testOC()
+        
+        
+        let test2 = ChildTest(str: "str1", str2: "str2")
+        test2.show()
+        
+        ChildTest.staticTest()
+        
         return true
     }
 
